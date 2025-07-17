@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import InjectText from './InjectText';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Connect with me
         </a>
       </header>
+      <InjectText className="injected-target" text="Hello from InjectText" />
     </div>
   );
 }
